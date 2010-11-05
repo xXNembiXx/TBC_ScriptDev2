@@ -3,6 +3,7 @@
  * Please see the included DOCS/LICENSE.TXT for more information */
 #include "precompiled.h"
 #include "BSW_ai.h"
+/*
 #ifdef DEF_BOSS_SPELL_WORKER_H
 #include "ace/Process_Mutex.h"
 
@@ -861,4 +862,4 @@ bool BSWScriptedAI::_isDifficultyInMask(uint8 mask)
     return ((uint8)currentDifficulty & mask);
 };
 
-#endif
+#endif */

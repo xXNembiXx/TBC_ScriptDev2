@@ -120,7 +120,7 @@ bool GOHello_go_strange_pool(Player* pPlayer, GameObject* pGo)
             if (pInstance->GetData(TYPE_THELURKER_EVENT) == NOT_STARTED)
             {
                 pPlayer->CastSpell(pPlayer, SPELL_LURKER_SPAWN_TRIGGER, true);
-                pPlayer->CompletedAchievement(ACHIEVEMENT_LURKER);
+                //pPlayer->CompletedAchievement(ACHIEVEMENT_LURKER);
                 pInstance->SetData(TYPE_THELURKER_EVENT, IN_PROGRESS);
                 return true;
             }
